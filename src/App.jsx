@@ -1,12 +1,16 @@
+// import Layout from './components/Layout'
+import Box from './components/Box'
 
 import './App.css'
 
-function App() {
- 
+const App = () => {
+
 
   return (
-    <div>
-
+    <div className="text-center">
+      <h1>useLayoutEffect</h1>
+      {/* <Layout /> */}
+      <Box />
     </div>
   )
 }
